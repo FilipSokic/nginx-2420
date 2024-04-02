@@ -34,7 +34,7 @@ Enable it to start on boot which ensures Nginx is always running, ready to serve
 
 ## Step 4: Create Project Directory
 
-Create a new directory for your project:
+Create a new directory for your project (you can name it whatever you like):
 
  `sudo mkdir -p /web/html/nginx-2420`
 
@@ -43,12 +43,12 @@ Create a new directory for your project:
 
 ### Create a Separate Server Block which will host your website 
 
-Create a new directory for the config file
+Create a new directory for the config file (the preferred name is sites-available)
 
 `sudo mkdir -p /etc/nginx/sites-available`
 
 
-Create a new server block configuration file:
+Create a new server block configuration file (you can name it whatever you like):
 
 `sudo vim /etc/nginx/sites-available/nginx-2420.conf`
 
@@ -99,7 +99,7 @@ Create your HTML document:
 
 `sudo vim /web/html/nginx-2420/index.html`
 
-Add your HTML code:
+Write your HTML code:
 
 ```html
 <!DOCTYPE html>
